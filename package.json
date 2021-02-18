@@ -9,6 +9,12 @@
       "git add ."
     ]
   },
+	"husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "yarn test && lint-staged"
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
