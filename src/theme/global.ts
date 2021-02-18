@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import { getTheme } from 'styled-toolset';
 
-const white = getTheme('colors.white');
-const black = getTheme('colors.black');
+const white = getTheme('colors.primary');
+const black = getTheme('colors.secondary');
 const fonts = getTheme('fonts.sanFrancisco');
 
 export const GlobalStyle = createGlobalStyle`

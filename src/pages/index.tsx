@@ -1,14 +1,5 @@
-import Head from 'next/head';
+import Home from './home';
 
-export default function Home() {
-	return (
-		<div>
-			<Head>
-				<title>Welcome to Next</title>
-			</Head>
-			<main>
-				<h1>Hello World</h1>
-			</main>
-		</div>
-	);
+export default function Main() {
+	return <Home />;
 }
